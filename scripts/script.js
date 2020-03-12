@@ -75,5 +75,5 @@ if ( !(numOfLettersGuessed < theWord.length))
     }
 else
     {
-        console.log("You lost");
+        console.log("You lost. The word was " + theWord);
     }
